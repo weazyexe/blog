@@ -1,0 +1,7 @@
+{% set image = resize_image(path=path, width=width, height=height, op=op, format="webp") %}
+<div style="display: flex; justify-content: center;">
+    <img src="{{ image.url }}" />
+</div>
+<div style="display: flex; justify-content: center; padding-top: 1em">
+    <span>{{ description }}</span>
+</div>

@@ -1,0 +1,42 @@
+# The URL the site will be built for
+base_url = "https://weazyexe.github.io"
+
+# title = "Тимур Задворнов"
+description = "Профессионально крашу кнопки в Android приложениях с 2019 года"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+default_language = "ru"
+
+theme = "anatole-zola"
+
+generate_feed = true
+
+[languages.ru.translations]
+language_name = "Русский"
+about = "Обо мне"
+home = "Публикации"
+tags = "Теги"
+archive = "Архив"
+links = "Ссылки"
+date_format = "%d.%m.%Y"
+next_page = "Следующая статья"
+last_page = "Последняя статья"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+mode = "dark"
+
+[extra.social]
+github = "weazyexe"
+linkedin = "weazyexe"
+twitter = "weazyexe"
