@@ -1,6 +1,10 @@
 +++
 title = "Адаптируем Android приложение для незрячих людей. Часть 1: основы"
+description = "Разбираемся что такое Accessibility, как работать с этим в Android, что такое TalkBack. На примерах разбираем как адаптировать приложение для людей с ограниченными возможностями"
 date = "2022-07-22T16:09:00+04:00"
+
+[extra]
+cover_url = "assets/cover.jpeg"
 +++
 
 {{ image_fill_width(path = "assets/cover.jpeg") }}

@@ -1,6 +1,10 @@
 +++
 title = "Адаптируем Android приложение для незрячих людей. Часть 2: Jetpack Compose"
+description = "Вторая часть ряда текстов про Accessibility в Android. В этом тексте объясняю как работать с Accessibility в Jetpack Compose"
 date = "2022-10-21T10:20:00+04:00"
+
+[extra]
+cover_url = "assets/cover.jpg"
 +++
 
 {{ image_fill_width(path = "assets/cover.jpg") }}

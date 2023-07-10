@@ -15,6 +15,7 @@ default_language = "ru"
 theme = "anatole-zola"
 
 generate_feed = true
+generate_rss = true
 
 [languages.ru.translations]
 language_name = "Русский"

@@ -1,6 +1,10 @@
 +++
 title = "Material You: раскладываем по полочкам обновление дизайн-системы Material"
+description = "Погружение в историю Material Design - от первой версии из 2014 года до современного Material You. Подробный разбор цветовых схем, гайдлайнов и компонентов дизайн системы от Google"
 date = "2022-02-25T10:16:00+04:00"
+
+[extra]
+cover_url = "assets/cover.jpg"
 +++
 
 {{ image_fill_width(path = "assets/cover.jpg") }}
