@@ -14,12 +14,12 @@ jobs:
         with:
           tool: zola@0.17.1
       - uses: actions/checkout@v3
-      - run: 
-        zola build
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
-        git add .
-        git commit -m "[ci] zola build"
+      - run: |
+          zola build
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "[ci] zola build"
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
