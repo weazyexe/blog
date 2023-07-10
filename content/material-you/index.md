@@ -13,7 +13,7 @@ cover_url = "assets/cover.jpg"
 
 В 2014 году вместе с релизом Android 5.0 Lollipop Google представил миру концепцию Material Design. Каждый элемент в системе состоит из «материала», идею которого хорошо описал дизайнер Матиас Дуарте: «В отличие от настоящей бумаги цифровой материал может разумно расширяться и преобразовываться. Материал имеет физические поверхности и края. Швы и тени придают смысл тому, к чему можно прикоснуться».
 
-<div style="display: flex; justify-content: space-around;">
+<div style="display: flex; justify-content: space-around; flex-direction: row; flex-wrap: wrap;">
     {{ screen_recording(path = "assets/material_1_behavior.webm") }}
     {{ screen_recording(path = "assets/material_1_shapes.webm") }}
 </div>
