@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://weazyexe.github.io"
+base_url = "https://weazyexe.dev"
 
 title = "weazyexe blog"
 description = "Профессионально крашу кнопки в Android приложениях с 2019 года"
