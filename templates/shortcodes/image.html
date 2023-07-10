@@ -1,7 +1,12 @@
-{% set image = resize_image(path=path, width=width, height=height, op=op, format="webp") %}
-<div style="display: flex; justify-content: center;">
+{% set realWidth = 500 %}
+{% if width %}
+    {% set realWidth = width %}
+{% endif %}
+
+{% set image = resize_image(path=page.colocated_path ~ path, op="fit_width", width=realWidth, format="webp") %}
+<div style="display: flex; justify-content: center; padding-top: 1em">
     <img src="{{ image.url }}" />
 </div>
-<div style="display: flex; justify-content: center; padding-top: 1em">
-    <span>{{ description }}</span>
-</div>
+{% if description %}
+<p align="center" style="font-size: 14px; padding-bottom: 1.5em">{{ description }}</p>
+{% endif %}

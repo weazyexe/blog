@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://weazyexe.github.io"
 
-# title = "Тимур Задворнов"
+title = "weazyexe blog"
 description = "Профессионально крашу кнопки в Android приложениях с 2019 года"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -23,7 +23,7 @@ home = "Публикации"
 tags = "Теги"
 archive = "Архив"
 links = "Ссылки"
-date_format = "%d.%m.%Y"
+date_format = "%d.%m.%Y, %H:%M"
 next_page = "Следующая статья"
 last_page = "Последняя статья"
 
