@@ -8,8 +8,8 @@
         </div>
         <div class="post-content">
               <p>
-                {% if page.extra.summary %}
-                    {{ page.extra.summary | safe | striptags }}
+                {% if page.description %}
+                    {{ page.description }}
                 {% else %}
                     {{ page.content | safe | striptags | truncate(length=200) }}
                 {% endif %}
